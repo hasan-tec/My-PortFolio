@@ -92,7 +92,7 @@ export const navItems = [
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/Hasanhajdin/ai_saas_app",
+      link: "https://github.com/hasan-tec",
     },
     {
       id: 4,
@@ -100,7 +100,7 @@ export const navItems = [
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/Hasanhajdin/iphone",
+      link: "https://github.com/hasan-tec",
     },
   ];
   
