@@ -2,7 +2,7 @@
 import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { CanvasRevealEffect } from "@/components/ui/canvasRevealEffect";
+import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 import { Button } from "./ui/MovingBorders";
 
 const Approach = () => {
