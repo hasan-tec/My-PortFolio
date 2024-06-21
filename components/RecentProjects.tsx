@@ -1,7 +1,7 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
+import Link from "next/link";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 
@@ -18,7 +18,8 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[41rem]"
             key={item.id}
           >
-            <a href={item.link}>
+            <Link  href= {item.link}>
+            
             <PinContainer
               title={item.link}
               href={item.link}
@@ -74,7 +75,9 @@ const RecentProjects = () => {
                 </div>
               </div>
             </PinContainer>
-            </a>
+           
+            </Link>
+            
           </div>
         ))}
       </div>
